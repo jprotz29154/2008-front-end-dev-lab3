@@ -40,7 +40,7 @@ function onUpdateToDoItem(e) {
     
     //updating user input
     const todo = e.currentTarget.todo.value.trim()
-    const category = e.currentTarget.category.trim()
+    const category = e.currentTarget.category.value.trim()
     const status = e.currentTarget.status.value.trim()
 
     updateToDo({
